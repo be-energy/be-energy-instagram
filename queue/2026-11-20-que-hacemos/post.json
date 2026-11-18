@@ -1,0 +1,44 @@
+{
+  "publish_at": "2026-11-20T10:00:00+01:00",
+  "topic": "Presentación: qué hace be-energy",
+  "caption": "Hola 👋 Somos be-energy.\n\nRevisamos el contrato de luz de comunidades de propietarios y empresas para que no paguen de más.\n\n✅ Analizamos tu consumo real, cuarto de hora a cuarto de hora\n✅ Ajustamos la potencia contratada\n✅ Comparamos tarifas y te enseñamos el ahorro con números\n\n¿Administras una comunidad o tienes un negocio? Pídenos un estudio gratuito en be-energy.es 🔗 (enlace en la bio)\n\n#ahorroenergetico #facturadelaluz #comunidaddepropietarios #administradordefincas #eficienciaenergetica #potenciacontratada #ahorro #empresas",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Hola, somos be-energy",
+      "title": "Revisamos tu factura de luz para que *no pagues de más*",
+      "subtitle": "Para comunidades de propietarios y empresas. Analizamos tu consumo real y ajustamos tu contrato."
+    },
+    {
+      "type": "point",
+      "n": 1,
+      "title": "Analizamos tu consumo *cuarto a cuarto de hora*",
+      "body": "Con la curva de consumo de tu distribuidora vemos cuánta potencia usas de verdad, no la que dice el contrato."
+    },
+    {
+      "type": "point",
+      "n": 2,
+      "title": "Ajustamos la *potencia contratada*",
+      "body": "La potencia se paga todos los días del año, la uses o no. Si está sobredimensionada, es dinero que se va sin hacer nada."
+    },
+    {
+      "type": "point",
+      "n": 3,
+      "title": "Buscamos la *mejor tarifa*",
+      "body": "Comparamos ofertas del mercado y te enseñamos el ahorro con números antes de que decidas nada."
+    },
+    {
+      "type": "cta",
+      "title": "¿Pagas de más en tu *luz?*",
+      "body": "Pídenos un estudio gratuito de tu contrato. Sin compromiso.",
+      "button": "Estudio gratuito · be-energy.es"
+    }
+  ],
+  "images": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg"
+  ]
+}

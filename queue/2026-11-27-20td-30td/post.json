@@ -1,0 +1,44 @@
+{
+  "publish_at": "2026-11-27T10:00:00+01:00",
+  "topic": "Diferencias 2.0TD vs 3.0TD",
+  "caption": "2.0TD o 3.0TD: ¿sabes qué tarifa de acceso tiene tu comunidad o tu negocio? 🤔\n\n🔹 2.0TD → hasta 15 kW. 2 periodos de potencia y 3 de energía.\n🔹 3.0TD → más de 15 kW. 6 periodos de potencia y 6 de energía.\n\nY en 3.0TD hay un detalle importante: si superas la potencia contratada, pagas excesos. Por eso hay que ajustarla con datos reales, ni de más ni de menos.\n\nLo miramos por ti, gratis: be-energy.es 🔗\n\n#ahorroenergetico #facturadelaluz #comunidaddepropietarios #administradordefincas #eficienciaenergetica #potenciacontratada #ahorro #empresas #tarifa30td #tarifa20td",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Tarifas de acceso",
+      "title": "2.0TD o 3.0TD: *¿qué tarifa tienes?*",
+      "subtitle": "Depende de tu potencia contratada. Y cambia por completo cómo pagas la luz."
+    },
+    {
+      "type": "point",
+      "n": 1,
+      "title": "2.0TD: *hasta 15 kW*",
+      "body": "Hogares, pequeños locales y muchas comunidades. 2 periodos de potencia y 3 de energía: punta, llano y valle."
+    },
+    {
+      "type": "point",
+      "n": 2,
+      "title": "3.0TD: *más de 15 kW*",
+      "body": "Comunidades con ascensores, garajes o bombas, y empresas. 6 periodos de potencia y 6 de energía según la hora, el día y la época del año."
+    },
+    {
+      "type": "point",
+      "n": 3,
+      "title": "En 3.0TD, *pasarte también cuesta*",
+      "body": "Si superas la potencia contratada se pagan excesos. Por eso hay que ajustarla con datos reales: ni de más, ni de menos."
+    },
+    {
+      "type": "cta",
+      "title": "¿Pagas de más en tu *luz?*",
+      "body": "Pídenos un estudio gratuito de tu contrato. Sin compromiso.",
+      "button": "Estudio gratuito · be-energy.es"
+    }
+  ],
+  "images": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg"
+  ]
+}

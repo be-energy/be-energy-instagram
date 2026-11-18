@@ -1,0 +1,50 @@
+name: Publicar en Instagram
+
+on:
+  schedule:
+    # Cada hora, minuto 17 (UTC). Publica lo que esté en queue/ con fecha ya cumplida.
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "comprobar = solo verifica la conexión · publicar = publica lo pendiente"
+        type: choice
+        options: [comprobar, publicar]
+        default: comprobar
+      post:
+        description: "(Opcional) carpeta de queue/ a publicar YA, ignorando la fecha"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Publicar
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          CHECK_ONLY: ${{ github.event_name == 'workflow_dispatch' && inputs.modo == 'comprobar' && '1' || '0' }}
+          FORCE_POST: ${{ inputs.post }}
+        run: python scripts/publish.py
+      - name: Guardar estado
+        if: always()
+        run: |
+          git config user.name "be-energy bot"
+          git config user.email "bot@be-energy.es"
+          git add -A queue published
+          if ! git diff --cached --quiet; then
+            git commit -m "Publicado en Instagram $(date -u +%F\ %H:%M)"
+            git pull --rebase origin main
+            git push
+          fi

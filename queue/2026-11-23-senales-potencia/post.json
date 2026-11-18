@@ -1,0 +1,44 @@
+{
+  "publish_at": "2026-11-23T10:00:00+01:00",
+  "topic": "3 señales de potencia sobredimensionada en comunidades",
+  "caption": "¿Tu comunidad paga potencia de más? Estas son las 3 señales más habituales 👇\n\n1️⃣ La potencia no se ha revisado desde que se construyó el edificio.\n2️⃣ En la factura, el término de potencia pesa tanto o más que la energía consumida.\n3️⃣ Tienes la misma potencia en todos los periodos \"por si acaso\".\n\nSi reconoces alguna, merece la pena revisarlo con datos reales. Te hacemos el estudio gratis: be-energy.es 🔗\n\nGuárdalo para la próxima junta 📌\n\n#ahorroenergetico #facturadelaluz #comunidaddepropietarios #administradordefincas #eficienciaenergetica #potenciacontratada #ahorro #empresas",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Comunidades de propietarios",
+      "title": "3 señales de que tu comunidad *paga potencia de más*",
+      "subtitle": "Si reconoces alguna, hay dinero encima de la mesa."
+    },
+    {
+      "type": "point",
+      "n": 1,
+      "title": "La potencia *no se ha revisado nunca*",
+      "body": "Muchas comunidades mantienen la potencia que se contrató al construir el edificio. Los ascensores, la iluminación LED y los hábitos han cambiado. El contrato, no."
+    },
+    {
+      "type": "point",
+      "n": 2,
+      "title": "La potencia *pesa más que el consumo*",
+      "body": "Mira tu factura: si el término de potencia es parecido o mayor que el de energía, es muy probable que esté sobredimensionada."
+    },
+    {
+      "type": "point",
+      "n": 3,
+      "title": "La *misma potencia* en todos los periodos",
+      "body": "En la tarifa 3.0TD puedes contratar una potencia distinta en cada periodo. Ponerlas todas iguales \"por si acaso\" suele salir caro."
+    },
+    {
+      "type": "cta",
+      "title": "¿Pagas de más en tu *luz?*",
+      "body": "Pídenos un estudio gratuito de tu contrato. Sin compromiso.",
+      "button": "Estudio gratuito · be-energy.es"
+    }
+  ],
+  "images": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg"
+  ]
+}
