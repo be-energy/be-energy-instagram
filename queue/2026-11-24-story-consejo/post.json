@@ -1,0 +1,17 @@
+{
+  "kind": "story",
+  "publish_at": "2026-11-24T13:00:00+01:00",
+  "topic": "Story: cada cuánto revisar la potencia",
+  "story": {
+    "type": "slide",
+    "label": "Consejo rápido",
+    "slide": {
+      "type": "point",
+      "title": "Revisa tu potencia *una vez al año*",
+      "body": "Y siempre que cambie algo: un ascensor nuevo, el paso a LED, placas solares o un cambio de actividad en el local."
+    }
+  },
+  "images": [
+    "story.jpg"
+  ]
+}

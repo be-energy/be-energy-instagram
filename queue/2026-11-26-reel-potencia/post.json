@@ -1,0 +1,41 @@
+{
+  "kind": "reel",
+  "publish_at": "2026-11-26T10:00:00+01:00",
+  "topic": "Reel: ¿pagas potencia que no usas?",
+  "caption": "¿Tu comunidad paga potencia que no usa? 👀\n\nLa potencia contratada se paga todos los días, la uses o no. Y en muchas comunidades lleva años sin revisarse.\n\nEn be-energy analizamos tu consumo real cuarto a cuarto de hora y te decimos cuánta potencia necesitas de verdad.\n\n👉 Estudio gratuito en be-energy.es (enlace en la bio)\n\n#ahorroenergetico #facturadelaluz #comunidaddepropietarios #administradordefincas #potenciacontratada #eficienciaenergetica",
+  "scenes": [
+    {
+      "type": "cover",
+      "kicker": "Comunidades y empresas",
+      "title": "¿Pagas potencia *que no usas?*",
+      "subtitle": "Lo vemos en muchas facturas. Te explicamos cómo detectarlo."
+    },
+    {
+      "type": "point",
+      "n": 1,
+      "title": "Se paga *todos los días*",
+      "body": "La potencia contratada se factura los 365 días del año, la uses o no."
+    },
+    {
+      "type": "point",
+      "n": 2,
+      "title": "Casi *nadie la revisa*",
+      "body": "Muchas comunidades mantienen la potencia de cuando se construyó el edificio."
+    },
+    {
+      "type": "point",
+      "n": 3,
+      "title": "Los datos *no mienten*",
+      "body": "Con tu curva de consumo cuarto-horaria vemos la potencia que de verdad necesitas."
+    },
+    {
+      "type": "cta",
+      "title": "¿Lo revisamos *gratis?*",
+      "body": "Pide tu estudio sin compromiso.",
+      "button": "be-energy.es"
+    }
+  ],
+  "video": "reel.mp4",
+  "cover": "cover.jpg",
+  "duration": 31.1
+}

@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       modo:
-        description: "comprobar = solo verifica la conexión · publicar = publica lo pendiente"
+        description: "comprobar = verifica la conexión · prueba = prepara el post indicado sin publicarlo · publicar = publica"
         type: choice
-        options: [comprobar, publicar]
+        options: [comprobar, prueba, publicar]
         default: comprobar
       post:
         description: "(Opcional) carpeta de queue/ a publicar YA, ignorando la fecha"
@@ -36,6 +36,7 @@ jobs:
           META_TOKEN: ${{ secrets.META_TOKEN }}
           CHECK_ONLY: ${{ github.event_name == 'workflow_dispatch' && inputs.modo == 'comprobar' && '1' || '0' }}
           FORCE_POST: ${{ inputs.post }}
+          DRY_RUN: ${{ inputs.modo == 'prueba' && '1' || '0' }}
         run: python scripts/publish.py
       - name: Guardar estado
         if: always()

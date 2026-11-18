@@ -1,0 +1,12 @@
+{
+  "kind": "story",
+  "publish_at": "2026-11-27T10:30:00+01:00",
+  "topic": "Story: aviso de nuevo post",
+  "story": {
+    "type": "teaser",
+    "source": "2026-11-27-20td-30td"
+  },
+  "images": [
+    "story.jpg"
+  ]
+}
