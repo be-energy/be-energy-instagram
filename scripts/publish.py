@@ -98,10 +98,6 @@ def publish(ig_id, folder):
 def main():
     if not TOKEN:
         sys.exit("Falta el secreto META_TOKEN")
-    t = TOKEN
-    print(f"Diagnóstico token: longitud={len(t)}, empieza por '{t[:3]}', "
-          f"espacios={' ' in t}, comillas={any(c in t for c in chr(34)+chr(39))}, "
-          f"saltos={chr(10) in t}, solo_alfanum={t.isalnum()}")
     ig_id, user = ig_account()
     print(f"Cuenta de Instagram: @{user} ({ig_id})")
     if os.environ.get("CHECK_ONLY") == "1":
