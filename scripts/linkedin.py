@@ -59,9 +59,12 @@ def upload_image(owner, path):
                    {"initializeUploadRequest": {"owner": owner}})
     val = init["value"]
     up = urllib.request.Request(val["uploadUrl"], data=path.read_bytes(), method="PUT",
-                                headers={"Authorization": f"Bearer {TOKEN}"})
-    with urllib.request.urlopen(up, timeout=120):
-        pass
+                                headers={"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/octet-stream"})
+    try:
+        with urllib.request.urlopen(up, timeout=120):
+            pass
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"LinkedIn {e.code} subiendo imagen: {e.read().decode(errors='replace')[:300]}") from None
     return val["image"]
 
 
