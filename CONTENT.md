@@ -35,6 +35,14 @@ be-energy (be-energy.es) audita contratos de luz de **comunidades de propietario
 - Copy: gancho en la primera línea, 3–6 líneas con emojis moderados, CTA y 6–10 hashtags.
 - Hashtags base: #ahorroenergetico #facturadelaluz #comunidaddepropietarios #administradordefincas #eficienciaenergetica #potenciacontratada #empresas
 
+## LinkedIn (perfil personal de Beatriz Sanz)
+- 2 posts por semana: **martes y jueves a las 9:00**. Carpeta `queue/AAAA-MM-DD-linkedin-tema` con `post.json`:
+  `{"kind":"linkedin","publish_at":"...","topic":"...","approved":false,"text":"...","images":["01.jpg",...]}` (imágenes copiadas dentro de la carpeta: 1 imagen o varias diapositivas de un carrusel).
+- Se escribe **en primera persona, con la voz de Beatriz** (consultora de estrategia energética en be-energy): profesional, cercana, con un gancho en la primera línea, párrafos cortos, una pregunta o invitación al final ("escríbeme") y 3–5 hashtags. 900–1.500 caracteres. Sin emojis o casi sin ellos.
+- Público: administradores de fincas y gerentes de pymes. Puede reutilizar los temas e imágenes de Instagram de esa semana, pero con texto propio y más reflexivo.
+- **Nunca se publica sin aprobación**: `approved` va en `false`. Solo Gerardo o Beatriz lo cambian a `true` (diciéndoselo a Claude o editando el archivo). Si llega la hora sin aprobar, no se publica.
+- Mismas reglas que para Instagram: nada de casos, clientes ni cifras inventadas; be-energy no es comercializadora; no ofrecer asistir a juntas.
+
 ## Procedimiento semanal (agente)
 1. Leer este archivo, `ideas.md` (si tiene ideas pendientes, usarlas primero) y `published/LOG.md` + `queue/` para no repetir temas.
 2. Crear las carpetas de la semana en `queue/` (3 posts de feed, 1 reel y 4 historias; en el ejemplo de abajo, los posts de feed) con nombre `AAAA-MM-DD-tema` para el lunes, miércoles y viernes siguientes, cada una con `post.json`:
