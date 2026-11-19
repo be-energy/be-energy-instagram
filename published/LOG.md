@@ -1,1 +1,2 @@
 - 2026-11-18T11:46 · 2026-11-20-que-hacemos · Presentación: qué hace be-energy · https://www.instagram.com/p/Df4bjkNlySK/
+- 2026-11-19T11:26 · linkedin · 2026-11-24-linkedin-potencia-comunidades · LinkedIn: 3 señales de potencia de más en comunidades · https://www.linkedin.com/feed/update/urn:li:ugcPost:7529143131422793729/
