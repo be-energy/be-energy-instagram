@@ -37,10 +37,10 @@ be-energy (be-energy.es) audita contratos de luz de **comunidades de propietario
 
 ## LinkedIn (perfil personal de Beatriz Sanz)
 - 2 posts por semana: **martes y jueves a las 9:00**. Carpeta `queue/AAAA-MM-DD-linkedin-tema` con `post.json`:
-  `{"kind":"linkedin","publish_at":"...","topic":"...","approved":false,"text":"...","images":["01.jpg",...]}` (imágenes copiadas dentro de la carpeta: 1 imagen o varias diapositivas de un carrusel).
+  `{"kind":"linkedin","publish_at":"...","topic":"...","approved":true,"text":"...","images":["01.jpg",...]}` (imágenes copiadas dentro de la carpeta: 1 imagen o varias diapositivas de un carrusel).
 - Se escribe **en primera persona, con la voz de Beatriz** (consultora de estrategia energética en be-energy): profesional, cercana, con un gancho en la primera línea, párrafos cortos, una pregunta o invitación al final ("escríbeme") y 3–5 hashtags. 900–1.500 caracteres. Sin emojis o casi sin ellos.
 - Público: administradores de fincas y gerentes de pymes. Puede reutilizar los temas e imágenes de Instagram de esa semana, pero con texto propio y más reflexivo.
-- **Nunca se publica sin aprobación**: `approved` va en `false`. Solo Gerardo o Beatriz lo cambian a `true` (diciéndoselo a Claude o editando el archivo). Si llega la hora sin aprobar, no se publica.
+- **Aprobación automática** (decisión de Gerardo del 19/11/2026, "hasta nueva orden"): los posts se crean con `"approved": true` y se publican solos. Si Gerardo vuelve a pedir revisión previa, volver a crearlos con `false`. Para frenar uno concreto: poner `false` o borrar su carpeta antes de la hora.
 - Mismas reglas que para Instagram: nada de casos, clientes ni cifras inventadas; be-energy no es comercializadora; no ofrecer asistir a juntas.
 
 ## Procedimiento semanal (agente)
