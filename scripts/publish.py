@@ -23,6 +23,9 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import linkedin  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 API = "https://graph.facebook.com/" + os.environ.get("GRAPH_VERSION", "v23.0")
 TOKEN = os.environ.get("META_TOKEN", "").strip()
@@ -120,15 +123,21 @@ def build_container(ig_id, folder, spec):
 
 def publish(ig_id, folder, dry_run=False):
     spec = json.loads((folder / "post.json").read_text(encoding="utf-8"))
-    c = build_container(ig_id, folder, spec)
-    if dry_run:
-        print(f"PRUEBA OK {folder.name}: contenedor {c} listo (no se publica)")
-        return
-    media_id = call("POST", f"{ig_id}/media_publish", creation_id=c)["id"]
-    try:
-        link = call("GET", media_id, fields="permalink").get("permalink", "")
-    except Exception:
-        link = ""
+    if spec.get("kind") == "linkedin":
+        res = linkedin.publish(folder, spec, dry_run=dry_run)
+        if dry_run:
+            return
+        media_id, link = res["media_id"], res["permalink"]
+    else:
+        c = build_container(ig_id, folder, spec)
+        if dry_run:
+            print(f"PRUEBA OK {folder.name}: contenedor {c} listo (no se publica)")
+            return
+        media_id = call("POST", f"{ig_id}/media_publish", creation_id=c)["id"]
+        try:
+            link = call("GET", media_id, fields="permalink").get("permalink", "")
+        except Exception:
+            link = ""
     spec["published"] = {"at": datetime.now(timezone.utc).isoformat(), "media_id": media_id, "permalink": link}
     (folder / "post.json").write_text(json.dumps(spec, ensure_ascii=False, indent=2), encoding="utf-8")
     dest = ROOT / "published" / folder.name
@@ -146,6 +155,8 @@ def main():
     print(f"Cuenta de Instagram: @{user} ({ig_id})")
     if os.environ.get("CHECK_ONLY") == "1":
         print("Conexión OK")
+        if linkedin.TOKEN:
+            linkedin.check()
         return
     now = datetime.now(timezone.utc)
     force = os.environ.get("FORCE_POST", "").strip()
@@ -157,6 +168,10 @@ def main():
             continue
         spec = json.loads(pj.read_text(encoding="utf-8"))
         due = datetime.fromisoformat(spec["publish_at"]) <= now
+        if spec.get("kind") == "linkedin" and not spec.get("approved") and not (force and folder.name == force):
+            if due:
+                print(f"PENDIENTE DE APROBACIÓN {folder.name} (LinkedIn): no se publica")
+            continue
         if (force and folder.name == force) or (not force and due):
             try:
                 publish(ig_id, folder, dry_run=dry)
