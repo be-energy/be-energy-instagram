@@ -1,0 +1,12 @@
+{
+  "kind": "story",
+  "publish_at": "2026-12-04T10:30:00+01:00",
+  "topic": "Story: aviso de nuevo post",
+  "story": {
+    "type": "teaser",
+    "source": "2026-12-04-energia-reactiva"
+  },
+  "images": [
+    "story.jpg"
+  ]
+}

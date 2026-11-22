@@ -1,0 +1,51 @@
+{
+  "publish_at": "2026-11-30T10:00:00+01:00",
+  "topic": "Checklist anual del contrato de luz para administradores de fincas",
+  "caption": "Administradores de fincas: ¿cuándo fue la última vez que revisasteis el contrato de luz de cada comunidad? 📋\n\nEste es el checklist que recomendamos repasar una vez al año:\n\n✅ Potencia contratada frente a la que se usa de verdad\n✅ Tarifa de acceso correcta (2.0TD o 3.0TD)\n✅ Excesos de potencia o energía reactiva en las facturas\n✅ Fecha de fin de contrato y condiciones de permanencia\n\nSi quieres, lo revisamos por ti con datos reales. Estudio gratuito en be-energy.es 🔗\n\nGuárdalo para el cierre de año 📌\n\n#ahorroenergetico #facturadelaluz #comunidaddepropietarios #administradordefincas #eficienciaenergetica #potenciacontratada #empresas #fincas",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Para administradores de fincas",
+      "title": "El checklist *anual* del contrato de luz",
+      "subtitle": "4 puntos que conviene revisar en cada comunidad, una vez al año."
+    },
+    {
+      "type": "point",
+      "n": 1,
+      "title": "¿La potencia *encaja con el uso?*",
+      "body": "Compara la potencia contratada con la que marca la curva de consumo. Si sobra mucho margen, se está pagando de más todos los días."
+    },
+    {
+      "type": "point",
+      "n": 2,
+      "title": "¿La tarifa *es la correcta?*",
+      "body": "Hasta 15 kW, 2.0TD. Por encima, 3.0TD. Un cambio de ascensor, garaje o bombas puede hacer que la tarifa ya no encaje."
+    },
+    {
+      "type": "point",
+      "n": 3,
+      "title": "¿Hay *cargos extra* en la factura?",
+      "body": "Busca dos líneas: excesos de potencia y energía reactiva. Si aparecen mes tras mes, tienen solución."
+    },
+    {
+      "type": "point",
+      "n": 4,
+      "title": "¿Cuándo *vence el contrato?*",
+      "body": "Apunta la fecha de fin y si hay permanencia. Así comparas ofertas con tiempo y no te renueva solo en peores condiciones."
+    },
+    {
+      "type": "cta",
+      "title": "¿Lo revisamos *por ti?*",
+      "body": "Pídenos un estudio gratuito de los contratos de tus comunidades. Sin compromiso.",
+      "button": "Estudio gratuito · be-energy.es"
+    }
+  ],
+  "images": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg"
+  ]
+}

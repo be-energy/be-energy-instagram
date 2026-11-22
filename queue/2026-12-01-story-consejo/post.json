@@ -1,0 +1,17 @@
+{
+  "kind": "story",
+  "publish_at": "2026-12-01T13:00:00+01:00",
+  "topic": "Story: descarga tu curva de consumo",
+  "story": {
+    "type": "slide",
+    "label": "Consejo rápido",
+    "slide": {
+      "type": "point",
+      "title": "Descarga tu *curva de consumo*",
+      "body": "La tiene tu distribuidora y suele poder descargarse desde su web. Con ella se ve cuánta potencia usas de verdad."
+    }
+  },
+  "images": [
+    "story.jpg"
+  ]
+}
