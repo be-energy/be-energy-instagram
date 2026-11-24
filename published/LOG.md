@@ -2,3 +2,4 @@
 - 2026-11-19T11:26 · linkedin · 2026-11-24-linkedin-potencia-comunidades · LinkedIn: 3 señales de potencia de más en comunidades · https://www.linkedin.com/feed/update/urn:li:ugcPost:7529143131422793729/
 - 2026-11-23T09:31 · feed · 2026-11-23-senales-potencia · 3 señales de potencia sobredimensionada en comunidades · https://www.instagram.com/p/DgFEC1yFIWi/
 - 2026-11-23T09:31 · story · 2026-11-23-story-nuevo-post · Story: aviso de nuevo post · https://www.instagram.com/stories/beenergy.es/4036650542390172620
+- 2026-11-24T09:14 · linkedin · 2026-11-24-linkedin-20td-30td · LinkedIn: 2.0TD o 3.0TD, qué cambia para una comunidad · https://www.linkedin.com/feed/update/urn:li:ugcPost:7530921842342121472/
