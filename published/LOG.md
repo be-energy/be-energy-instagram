@@ -4,3 +4,4 @@
 - 2026-11-23T09:31 · story · 2026-11-23-story-nuevo-post · Story: aviso de nuevo post · https://www.instagram.com/stories/beenergy.es/4036650542390172620
 - 2026-11-24T09:14 · linkedin · 2026-11-24-linkedin-20td-30td · LinkedIn: 2.0TD o 3.0TD, qué cambia para una comunidad · https://www.linkedin.com/feed/update/urn:li:ugcPost:7530921842342121472/
 - 2026-11-24T12:04 · story · 2026-11-24-story-consejo · Story: cada cuánto revisar la potencia · https://www.instagram.com/stories/beenergy.es/4037452209905932354
+- 2026-11-25T09:18 · feed · 2026-11-25-365-dias · Dato: la potencia se paga 365 días · https://www.instagram.com/p/DgKMLOal9r7/
