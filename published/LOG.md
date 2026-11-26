@@ -6,3 +6,5 @@
 - 2026-11-24T12:04 · story · 2026-11-24-story-consejo · Story: cada cuánto revisar la potencia · https://www.instagram.com/stories/beenergy.es/4037452209905932354
 - 2026-11-25T09:18 · feed · 2026-11-25-365-dias · Dato: la potencia se paga 365 días · https://www.instagram.com/p/DgKMLOal9r7/
 - 2026-11-25T11:04 · story · 2026-11-25-story-nuevo-post · Story: aviso de nuevo post · https://www.instagram.com/stories/beenergy.es/4038146913634943776
+- 2026-11-26T09:15 · linkedin · 2026-11-26-linkedin-365-pymes · LinkedIn: la potencia se paga 365 días (pymes) · https://www.linkedin.com/feed/update/urn:li:share:7531646894872276994/
+- 2026-11-26T09:16 · reel · 2026-11-26-reel-potencia · Reel: ¿pagas potencia que no usas? · https://www.instagram.com/reel/DgMwt4ws-bB/
