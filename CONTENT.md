@@ -26,6 +26,16 @@ be-energy (be-energy.es) audita contratos de luz de **comunidades de propietario
 4. **Para empresas**: horarios de consumo y periodos, picos de arranque, potencia por periodo.
 5. **Datos y curiosidades** (post de una imagen tipo `stat`).
 6. **Casos reales** (solo con datos de Gerardo, tipo `compare`).
+7. **Libertad y tranquilidad**: dejar de pagar sin entender, recuperar el control de la factura, no depender de lo que diga la comercializadora, decidir con datos y con calma, quitarse un tema de encima ("nosotros lo miramos por ti").
+8. **La economía de tu familia y de tu negocio**: lo que se paga de más en la comunidad sale de la cuota de cada vecino, es decir, del bolsillo de cada familia; en una pyme, es margen que no llega al negocio ni a quien está detrás. Hablar de qué significa ese dinero en la vida real, sin inventar cifras.
+9. **El lado humano de be-energy**: por qué hacemos esto, cómo trabajamos (escuchar, analizar, explicar claro), el valor de tener a alguien de tu lado que no te vende luz. Sin testimonios inventados.
+
+### Equilibrio de temas (indicación de Gerardo, 27/11/2026)
+No centrarse solo en la potencia: quema a la audiencia. La consultoría ofrece mucho más.
+- **Como máximo 1 pieza de feed a la semana sobre potencia** (contratada, excesos, curva, picos…). El reel y los posts de LinkedIn tampoco deben repetir ese mismo tema técnico.
+- **Cada semana, al menos 1 post del feed y 1 de LinkedIn de los pilares 7, 8 o 9**, con un componente emocional: tranquilidad, control, libertad, cuidar la economía de la familia, tiempo que te ahorras.
+- Lo emocional se cuenta con situaciones con las que el público se identifique ("¿te suena?"), en segunda persona, **nunca con historias, clientes o testimonios inventados**.
+- Otros temas para rotar además de la potencia: cómo leer la factura, renovaciones automáticas y permanencias, comparar ofertas con criterio, por qué una consultora independiente y no una comercializadora, el cierre de año en la comunidad, qué documentos hacen falta para el estudio, qué pasa después del estudio.
 
 ## Formato y calendario semanal (Europe/Madrid)
 - **Feed:** 3 posts, **lunes, miércoles y viernes a las 10:00**.
