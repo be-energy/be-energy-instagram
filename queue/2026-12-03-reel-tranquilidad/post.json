@@ -1,0 +1,47 @@
+{
+  "kind": "reel",
+  "publish_at": "2026-12-03T10:00:00+01:00",
+  "topic": "Reel: pagar la luz sin entenderla (tranquilidad y libertad)",
+  "caption": "¿Pagas la luz cada mes sin saber muy bien qué estás pagando? No eres el único. 🙋\n\nEn be-energy te explicamos tu factura sin tecnicismos, comparamos ofertas del mercado y te contamos las diferencias para que decidas tú, con datos y con calma.\n\nY sin ataduras: no somos comercializadora, no te vendemos luz.\n\n👉 Estudio gratuito en be-energy.es (enlace en la bio)\n\n#ahorroenergetico #facturadelaluz #comunidaddepropietarios #administradordefincas #empresas #tranquilidad #economiafamiliar",
+  "scenes": [
+    {
+      "type": "cover",
+      "kicker": "¿Te suena?",
+      "title": "Pagas la *luz sin entenderla*",
+      "subtitle": "No eres el único. Y tiene solución."
+    },
+    {
+      "type": "point",
+      "n": 1,
+      "title": "Entiende *tu factura*",
+      "body": "Te explicamos cada línea, sin tecnicismos."
+    },
+    {
+      "type": "point",
+      "n": 2,
+      "title": "Decide *con datos*",
+      "body": "Comparamos ofertas del mercado y te contamos las diferencias."
+    },
+    {
+      "type": "point",
+      "n": 3,
+      "title": "Sin *ataduras*",
+      "body": "No somos comercializadora: no te vendemos luz."
+    },
+    {
+      "type": "point",
+      "n": 4,
+      "title": "Tú, *tranquilo*",
+      "body": "Nosotros lo revisamos. Tú decides."
+    },
+    {
+      "type": "cta",
+      "title": "¿Lo vemos *juntos?*",
+      "body": "Pide tu estudio sin compromiso.",
+      "button": "be-energy.es"
+    }
+  ],
+  "video": "reel.mp4",
+  "cover": "cover.jpg",
+  "duration": 28.8
+}
