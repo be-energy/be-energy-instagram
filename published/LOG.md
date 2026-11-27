@@ -9,3 +9,4 @@
 - 2026-11-26T09:15 · linkedin · 2026-11-26-linkedin-365-pymes · LinkedIn: la potencia se paga 365 días (pymes) · https://www.linkedin.com/feed/update/urn:li:share:7531646894872276994/
 - 2026-11-26T09:16 · reel · 2026-11-26-reel-potencia · Reel: ¿pagas potencia que no usas? · https://www.instagram.com/reel/DgMwt4ws-bB/
 - 2026-11-27T09:16 · feed · 2026-11-27-20td-30td · Diferencias 2.0TD vs 3.0TD · https://www.instagram.com/p/DgPViKSiVh7/
+- 2026-11-27T10:19 · story · 2026-11-27-story-nuevo-post · Story: aviso de nuevo post · https://www.instagram.com/stories/beenergy.es/4039574180945093754
